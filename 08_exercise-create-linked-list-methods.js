@@ -26,7 +26,6 @@ class LinkedList {
     if (this.head.next === null) {
       this.head.next = { value, next: null }
     }
-    console.log(this.head[0])
     this.tail = { value, next: null }
     this.length += 1
   }
